@@ -4,3 +4,4 @@ Jared - Test code , add a line with your name and a msg to show you got it worki
 
 
 Josh - Should be operational rn
+Terry - im here
