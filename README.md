@@ -55,3 +55,11 @@ Steps for making changes : -
 5. git push --set-upstream origin branch-name    - # Push your changes and create a pull request, this will create link to make pull request
 
 6. Make your pull request , # add a description of changes , create pull request , merge , delete branch (optional: Request reviewers)
+
+7. After merging pull request and making sure that it works fine, delete the branch on git hub. Then switch back to VS Code
+
+8. git checkout main - # Switch back to main after merging the branch into main.
+
+9. git pull origin main - # Pull all your changes into the main branch
+
+10. git branch -d branch-name - # This is optional as you can keep the branches on your laptop, but if you want to clean it up you can do this.
